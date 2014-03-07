@@ -10,10 +10,10 @@ setlocal formatoptions+=l
 
 " mappings
 " grep files in the current directory
-noremap <silent> <buffer> <Plug>GrepThisWord
-            \ :call pjvimlib#VimGrepCWord('%:h/*.py')<CR>
-noremap <silent> <buffer> <Plug>RecurseGrepThisWord
-            \ :call pjvimlib#VimGrepCWord('%:h/**/*.py')<CR>
+noremap <silent> <buffer> gs
+            \ :call vimgrepcword#VimGrepCWord('%:h/*.py')<CR>
+noremap <silent> <buffer> gS
+            \ :call vimgrepcword#VimGrepCWord('%:h/**/*.py')<CR>
 
 " flip comments with \q \Q
 noremap <buffer> <Leader>q :s/^ \?/#/ <bar> nohlsearch <bar> ']+1 <cr>
