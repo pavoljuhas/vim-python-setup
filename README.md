@@ -1,1 +1,2 @@
-Install vim-pathogen and that copy this tree to the ~/.vim/bundle directory.
+Install [vim-pathogen](https://github.com/tpope/vim-pathogen) and than clone
+this project to your `~/.vim/bundle` directory.
