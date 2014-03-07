@@ -13,9 +13,6 @@ function! pythonlookuplib#PyPasteTraceback()
             \%-G%.%#
     cgetexpr @*
     let &errorformat = save_errorformat
-    if !empty(getqflist())
-        clast
-    endif
 endfunction
 
 
