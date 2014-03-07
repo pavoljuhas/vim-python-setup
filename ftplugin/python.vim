@@ -29,4 +29,4 @@ nnoremap <buffer> <silent>
             \ gf :<C-U>call pythonlookuplib#FindCurrentWord()<CR>
 
 " compiler python
-compiler pyunit
+compiler python
