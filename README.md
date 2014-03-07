@@ -1,0 +1,1 @@
+Install vim-pathogen and that copy this tree to the ~/.vim/bundle directory.
